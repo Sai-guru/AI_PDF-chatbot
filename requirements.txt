@@ -1,0 +1,32 @@
+langchain==1.2.6
+langchain-core==1.2.7
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai==4.2.0
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# LangChain community modules used by project.py
+langchain-community==0.4.1
+langchain-text-splitters
+# FAISS (CPU) for vectorstore
+faiss-cpu
+pypdf
